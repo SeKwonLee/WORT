@@ -1,6 +1,6 @@
 ## WORT: Write Optimal Radix Tree for Persistent Memory Storage Systems (FAST 2017)
-WORT is PM-aware radix tree. In our paper, we show that the radix tree can be more appropriate 
-as an efficient PM indexing structure. This is because the radix tree structure is determined 
+WORT is PM-aware radix tree. In our paper, we show that the radix trees can be more appropriate 
+than B+Trees as an efficient PM indexing structure. This is because the radix tree structure is determined 
 by the prefix of the inserted keys and also does not require tree rebalancing operations and 
 node granularity updates. This repository provides the implementation of WORT and WOART that were
 used for the studies of our paper.
