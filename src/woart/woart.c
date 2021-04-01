@@ -359,6 +359,7 @@ static art_leaf* make_leaf(const unsigned long key, int key_len, void *value, bo
 	art_leaf *l;
     void *ret;
 	posix_memalign(&ret, 64, sizeof(art_leaf));
+	l = static_cast<woart_leaf *>(ret);
 	l->value = value;
 	l->key_len = key_len;
 	l->key = key;
